@@ -1,5 +1,6 @@
 import React from "react";
 import { BiCarousel } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 
 const InfoBlock = ({ title, content }) => (
@@ -215,9 +216,11 @@ const Home = () => {
 
         <div className="flex flex-col items-center pt-5">
           <p>See One Price Simple</p>
+          <Link to='/buy'>
           <button className="bg-blue-950 mt-4 text-white p-2 px-8 rounded-md">
             Purchase Now
           </button>
+          </Link>
         </div>
       </div>
       

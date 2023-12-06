@@ -31,9 +31,7 @@ const Register = () => {
         password: formData.password,
       };
 
-      console.log(userData,'userdaataaaaaaa');
       const response = await postRegister(userData)
-      console.log(response,'ressssssssssssspppppp');
       
         navigate("/login");
       

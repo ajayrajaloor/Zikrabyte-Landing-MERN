@@ -34,9 +34,9 @@ const Footer = () => {
 
         <div className="flex flex-row justify-between">
           <div className="flex  md:justify-start space-x-8">
-            <span>Home</span>
-            <span>About</span>
-            <span>Contact</span>
+          <span><Link to='/home'>Home</Link></span>
+        <span><Link to='/about'>About</Link></span>
+        <span><Link to='/contact'>Contact</Link></span>
           </div>
           <div className="flex items-center space-x-4">
             <FaFacebook size={24} color="#888" />

@@ -25,9 +25,7 @@ const Login = () => {
       email: formData.email,
       password: formData.password,
     };
-    console.log(datas, "datasssssss");
     const response = await postLogin(datas);
-    console.log(response, "response");
     localStorage.setItem("UserAuth", response.token);
     navigate('/home')
   };
